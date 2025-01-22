@@ -15,7 +15,7 @@ const HeadingSection = () => {
   }, []);
 
   return (
-    <div className="w-full flex flex-col items-center mt-16 mb-10">
+    <div className="w-full flex flex-col items-center mt-16 mb-10 px-2">
       <h1 className="sr-only">Mastering Data Science</h1>
       <h1 className="hero-text text-white" aria-hidden="true">
         mastering

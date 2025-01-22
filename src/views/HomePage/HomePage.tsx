@@ -30,7 +30,7 @@ const HomePage = () => {
         aria-label="home"
       >
         <HeadingSection />
-        <div className="w-full flex flex-col items-center">
+        <div className="w-full flex flex-col items-center px-2">
           <TypewrittenText
             text="In Partnership with:"
             className="sub-heading font-mono"
@@ -48,9 +48,9 @@ const HomePage = () => {
             />
           </div>
         </div>
-        <div className="my-10 text-center">
+        <div className="my-10 text-center px-5">
           <motion.p
-            className="font-semibold text-2xl"
+            className="font-semibold text-xl md:text-2xl"
             animate={{ color: ["#facc15", "#ffeea8"] }}
             transition={{
               duration: 1,
@@ -60,7 +60,7 @@ const HomePage = () => {
           >
             Course Registration Only LKR 2500!
           </motion.p>
-          <p className="mt-4 font-light text-xl">
+          <p className="mt-4 font-light text-lg md:text-xl">
             Registrations open from 23rd January to 15th February.
           </p>
           <p className="mt-4 font-light">Courses begin on 23rd February.</p>

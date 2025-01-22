@@ -72,7 +72,7 @@
     box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5);
   }
   .hero-text {
-    @apply inline-block italic uppercase font-extrabold tracking-tighter text-5xl md:text-6xl -rotate-3 text-shadow hover:scale-125 transition-transform duration-300 ease-in-out;
+    @apply inline-block italic uppercase font-extrabold tracking-tighter text-4xl md:text-6xl -rotate-3 text-shadow hover:scale-125 transition-transform duration-300 ease-in-out;
   }
   .sub-heading {
     @apply font-bold justify-self-center text-center mb-7 hover:text-purple-300 transition-colors duration-300;
