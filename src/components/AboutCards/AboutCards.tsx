@@ -117,7 +117,7 @@ const AboutCards = () => {
             <CardContent className="flex justify-center items-center">
               <motion.img
                 src={gskLogo}
-                className="w-36 mt-3 mb-3"
+                className="w-32 mt-3 mb-3"
                 animate={gskLogoControls}
                 transition={{ type: "spring", stiffness: 300 }}
                 alt="Global Shapers Kandy Hub logo"
