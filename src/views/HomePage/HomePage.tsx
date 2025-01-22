@@ -20,7 +20,7 @@ const HomePage = () => {
   };
 
   const handleRegisterButtonClick = function () {
-    window.open("https://forms.gle/mXRkKrW4oc8pfJ3i9", "_blank");
+    window.open("https://forms.gle/vgqd7ed65JSuYr2ZA", "_blank");
   };
 
   return (

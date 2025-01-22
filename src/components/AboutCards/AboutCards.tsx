@@ -54,7 +54,7 @@ const AboutCards = () => {
           className="z-20"
         >
           <Card
-            className="w-64 h-80 cursor-pointer bg-slate-800 border-slate-500 box-shadow"
+            className="about-card"
             onClick={() => handleCardClick("accelerate")}
           >
             <CardHeader className="items-center">
@@ -97,10 +97,7 @@ const AboutCards = () => {
           aria-description="click the card to learn about the worldwide network of young changemakers"
           className="z-20"
         >
-          <Card
-            className="w-64 h-80 cursor-pointer bg-slate-800 border-slate-500 box-shadow"
-            onClick={() => handleCardClick("gsk")}
-          >
+          <Card className="about-card" onClick={() => handleCardClick("gsk")}>
             <CardHeader className="items-center">
               <CardTitle className="font-mono text-lg text-center text-white tracking-tighter">
                 <motion.h2
@@ -142,7 +139,7 @@ const AboutCards = () => {
           className="z-20"
         >
           <Card
-            className="w-64 h-80 cursor-pointer bg-slate-800 border-slate-500 box-shadow"
+            className="about-card"
             onClick={() => handleCardClick("pydata")}
           >
             <CardHeader className="items-center">

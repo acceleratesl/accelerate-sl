@@ -18,7 +18,7 @@ const CarouselSection = () => {
   return (
     <div className="mt-10 w-full">
       <TypewrittenText
-        text="Browse our course repositories below for starting files:"
+        text="Browse our course content below:"
         className="sub-heading font-mono px-10"
       />
       <Carousel

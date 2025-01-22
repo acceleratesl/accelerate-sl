@@ -40,7 +40,7 @@ const ProgramFeaturesSection = () => {
         <img src={features3} className="w-20 mr-8" aria-hidden="true" />
         <div className="self-start">
           <h3 className="text-lg font-thin mb-2 text-yellow-300">
-            Comprehensive Curriculum:
+            Comprehensive Curriculum
           </h3>
           <p>
             Covering high-demand topics such as programming, data analytics, and
@@ -52,7 +52,7 @@ const ProgramFeaturesSection = () => {
         <img src={features4} className="w-20 mr-8" aria-hidden="true" />
         <div className="self-start">
           <h3 className="text-lg font-thin mb-2 text-yellow-300">
-            Expert Panel:
+            Expert Panel
           </h3>
           <p>
             Sessions conducted by industry professionals and experts from the
