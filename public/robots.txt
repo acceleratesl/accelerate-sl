@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://acceleratesl.github.io/sitemap.xml
