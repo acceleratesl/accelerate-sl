@@ -14,7 +14,7 @@ import TypewrittenText from "../TypewrittenText";
 
 import Repos from "../../constants/Repos";
 
-const CarouselSection = () => {
+const CourseContentSection = () => {
   return (
     <div className="mt-10 w-full">
       <TypewrittenText
@@ -105,4 +105,4 @@ const CarouselSection = () => {
   );
 };
 
-export default CarouselSection;
+export default CourseContentSection;

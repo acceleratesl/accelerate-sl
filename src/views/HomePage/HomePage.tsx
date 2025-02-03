@@ -8,7 +8,7 @@ import pyDataLogo from "../../assets/images/logo-pydata.png";
 
 import HeadingSection from "@/components/HeadingSection";
 import FaqSection from "@/components/FaqSection";
-import CarouselSection from "@/components/CarouselSection";
+import CourseContentSection from "@/components/CourseContentSection";
 import TypewrittenText from "@/components/TypewrittenText";
 import Footer from "@/components/Footer";
 
@@ -86,7 +86,7 @@ const HomePage = () => {
           </Button>
         </div>
         <FaqSection />
-        <CarouselSection />
+        <CourseContentSection />
         <Footer />
       </div>
     </>

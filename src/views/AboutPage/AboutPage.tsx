@@ -10,6 +10,7 @@ import AboutCards from "@/components/AboutCards";
 import Footer from "@/components/Footer";
 import ProgramFeaturesSection from "@/components/ProgramFeaturesSection";
 import BenefitsSection from "@/components/BenefitsSection";
+import FacilitatorsSection from "@/components/FacilitatorsSection";
 
 const AboutPage = () => {
   const navigate = useNavigate();
@@ -49,6 +50,7 @@ const AboutPage = () => {
         </div>
         <ProgramFeaturesSection />
         <BenefitsSection />
+        <FacilitatorsSection />
         <Footer />
       </div>
     </>
