@@ -22,7 +22,7 @@ const FacilitatorsSection = () => {
         opts={{
           align: "start",
         }}
-        className="max-w-xl mx-auto p-2 md:justify-self-center z-50"
+        className="max-w-3xl mx-auto p-2 md:justify-self-center z-50"
       >
         <CarouselPrevious className="hidden sm:flex text-black" />
         <CarouselContent>
@@ -42,6 +42,9 @@ const FacilitatorsSection = () => {
                       className="w-50 m-5 rounded-full hover:scale-110 transition duration-500"
                     />
                     <div className="mt-2 mb-5">
+                      <p className="text-yellow-300 text-center mb-5">
+                        {facilitator.name}
+                      </p>
                       <p className="text-white text-center">
                         {facilitator.description}
                       </p>
